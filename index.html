@@ -10,8 +10,25 @@
     <title>Quiz Interativo</title>
 </head>
 
-<body>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Quiz Interativo</h2>
 
+        <div class="progress mb-4">
+            <div class="progress-bar" id="progress-bar" role="progressbar" style="width:0%">0%</div>
+        </div>
+
+        <div id="quiz-container" class="card p-4 shadow-sm ">
+            <h4 id="question"></h4>
+            <div class="mt-3" id="options"></div>
+            <button id="next-btn" class="btn btn-primary mt-4">Próxima</button>
+        </div>
+
+        <div id="result-container" class="text-center mt-4 d-none">
+            <h3>Sua Pontuação: <span id="score"></span></h3>
+            <button class="btn btn-success mt-3" onclick="restartQuiz()">Reiniciar</button>
+        </div>
+    </div>
 
 
 
