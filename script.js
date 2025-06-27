@@ -10,7 +10,7 @@ const questions = [
         answer: "Pedro Álvares Cabral"
     },
     {
-        question: "Qual é um dos biomas do brasil?",
+        question: "Qual é um dos biomas do Brasil?",
         options: ["Amazonas", "Deserto", "Mata Indica", "Pantanal"],
         answer: "Pantanal"
     },
